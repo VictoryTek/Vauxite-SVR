@@ -9,17 +9,14 @@ system:
     - com.brave.Browser                   # Brave Browser
     - com.mattjakeman.ExtensionManager    # Extension Manager
     - com.github.tchx84.Flatseal          # FlatSeal
-    - io.freetubeapp.FreeTube             # FreeTube
     - it.mijorus.gearlever                # Gearlever
     - org.gnome.TextEditor                # Gnome Text Editor
     - org.gnome.Loupe                     # Image Viewer
     - io.gitlab.librewolf-community       # LibreWolf
     - io.missioncenter.MissionCenter      # Mission Center
-    - tv.plex.PlexHTPC                    # Plex HTPC
     - com.rustdesk.RustDesk               # Rustdesk
     - org.gnome.seahorse.Application      # Seahorse
     - dev.deedles.Trayscale               # Tray Scale
-    - com.github.unrud.VideoDownloader    # Video Downloader
     - io.github.flattool.Warehouse        # Warehouse
 
   #remove:

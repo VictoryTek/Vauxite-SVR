@@ -1,8 +1,6 @@
 type: default-flatpaks
 configurations:
-  - notify: false
-    scope: system
-    install:
+  - install:
       - com.bitwarden.desktop               # Bitwarden
       - com.brave.Browser                   # Brave Browser
       - com.mattjakeman.ExtensionManager    # Extension Manager
@@ -16,6 +14,3 @@ configurations:
       - org.gnome.seahorse.Application      # Seahorse
       - dev.deedles.Trayscale               # Tray Scale
       - io.github.flattool.Warehouse        # Warehouse 
-
-
-user: {} # Also add Flathub user repo, but no user packages

@@ -1,16 +1,17 @@
-type: default-flatpaks
-configurations:
-  - install:
-      - com.bitwarden.desktop               # Bitwarden
-      - com.brave.Browser                   # Brave Browser
-      - com.mattjakeman.ExtensionManager    # Extension Manager
-      - com.github.tchx84.Flatseal          # FlatSeal
-      - it.mijorus.gearlever                # Gearlever
-      - org.gnome.TextEditor                # Gnome Text Editor
-      - org.gnome.Loupe                     # Image Viewer
-      - io.gitlab.librewolf-community       # LibreWolf
-      - io.missioncenter.MissionCenter      # Mission Center
-      - com.rustdesk.RustDesk               # Rustdesk
-      - org.gnome.seahorse.Application      # Seahorse
-      - dev.deedles.Trayscale               # Tray Scale
-      - io.github.flattool.Warehouse        # Warehouse 
+modules:
+  - type: default-flatpaks
+    configurations:
+      - install:
+          - com.bitwarden.desktop               # Bitwarden
+          - com.brave.Browser                   # Brave Browser
+          - com.mattjakeman.ExtensionManager    # Extension Manager
+          - com.github.tchx84.Flatseal          # FlatSeal
+          - it.mijorus.gearlever                # Gearlever
+          - org.gnome.TextEditor                # Gnome Text Editor
+          - org.gnome.Loupe                     # Image Viewer
+          - io.gitlab.librewolf-community       # LibreWolf
+          - io.missioncenter.MissionCenter      # Mission Center
+          - com.rustdesk.RustDesk               # Rustdesk
+          - org.gnome.seahorse.Application      # Seahorse
+          - dev.deedles.Trayscale               # Tray Scale
+          - io.github.flattool.Warehouse        # Warehouse 

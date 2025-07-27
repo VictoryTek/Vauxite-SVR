@@ -16,3 +16,10 @@ system:
     - org.gnome.seahorse.Application      # Seahorse
     - dev.deedles.Trayscale               # Tray Scale
     - io.github.flattool.Warehouse        # Warehouse 
+
+  remove:
+    - org.gnome.eog
+    - io.github.nokse22.Exhibit
+    - org.gnome.Weather
+    - org.gnome.clocks
+    - org.gnome.Characters
